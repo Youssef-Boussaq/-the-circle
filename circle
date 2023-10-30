@@ -1,0 +1,9 @@
+def c(r):
+    s=3.14*r**2
+    d=2*r
+    p=r*2*3.14
+    print("surface of circle is",s)
+    print("perimeter of circle is",d)
+    print("diameter of circle is",p)
+t=float(input("Enter the radius of the circle ; "))
+c(t)
